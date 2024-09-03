@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import avatarImage from "../assets/avatar-image.png";
+import avatarImage from "../assets/rocket-astronaut.png";
 import "../styles/avatar.css";
 
 const Avatar = ({ page }) => {
@@ -10,7 +10,7 @@ const Avatar = ({ page }) => {
   return (
     <>
       <span className={spanClass}></span>
-      {/* <img src={avatarImage} className={avatarClass} alt="avatar" /> */}
+      <img src={avatarImage} className={avatarClass} alt="avatar" />
     </>
   );
 };
