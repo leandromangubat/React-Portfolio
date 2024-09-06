@@ -19,3 +19,5 @@ const skills = {
     { title: "Express.js", level: 9 },
   ],
 };
+
+export default skills;
